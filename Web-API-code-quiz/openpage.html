@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <container>
+      <div class="topnav">
+        <a class="active" id="view" href="../Web-API-code-quiz/index.html"
+          >View</a
+        >
+        <a id="high" href="../Web-API-code-quiz/high-scores.html"
+          >High Scores</a
+        >
+        <div class="topnav-right">
+          <h3>Seconds left:<span id="time-left"> 60</span></h3>
+          <button id="start-button">START QUIZ!!!</button>
+          <a href="../Web-API-code-quiz/index.html">START QUIZ!!!</a>
+        </div>
+      </div>
+
+      <main id="main">
+        <div class="row">
+          <div class="col-6"></div>
+          <!-- 50% -->
+          <div class="col-6"></div>
+          <!-- 50% -->
+        </div>
+        <h1>Quiz on Important Facts</h1>
+        <div class="quiz-container">
+          <div id="quiz"></div>
+        </div>
+        <button id="previous">Previous Question</button>
+        <button id="next">Next Question</button>
+        <button id="submit">Submit Quiz</button>
+        <div id="results"></div>
+      </main>
+
+      <footer>Created by Baxter Cox | copyright</footer>
+      <script src="../Web-API-code-quiz/my.js"></script>
+      <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"
+      ></script>
+    </container>
+  </body>
+</html>

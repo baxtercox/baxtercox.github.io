@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+
+body {
+  font-size: 20px;
+  font-family: "Work Sans", sans-serif;
+  color: #333;
+  font-weight: 300;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 250px;
+}
+h1 {
+  font-weight: 300;
+  margin: 0px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: limegreen;
+  opacity: 60%;
+  color: black;
+  margin-bottom: 20px;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+.question {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.answers {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+}
+.answers label {
+  display: block;
+  margin-bottom: 10px;
+}
+button {
+  font-family: "Work Sans", sans-serif;
+  font-size: 22px;
+  background-color: black;
+  color: #fff;
+  border: 0px;
+  border-radius: 3px;
+  padding: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+button:hover {
+  background-color: rgb(170, 59, 51);
+}
+
+.slide {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide {
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container {
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}
+
+.topnav {
+  text-align: center;
+  margin-bottom: 25px;
+  background-color: coral;
+  opacity: 80%;
+  margin-top: -250px;
+}
+#time-left{
+  background-color: ivory;
+  text-align: right;
+}
+.h3{
+  background-color: black;
+}
+#footer{
+  margin-top: 300px;
+}
+*{
+  background-color: transparent blue;
+  
+}
+.footer {
+  text-align: center;
+  padding-top: 200px;
+  color: black;
+  font-weight: 900px;
+  font-size: 300;
+}
+
+#next{
+  padding-top: 15px;
+  margin-top: 25px;
+}
+#previous{
+  padding-top: 15px;
+  margin-top: 25px;
+}
+#submit{
+  padding-top: 15px;
+  margin-top: 25px;
+}
+#start-button{
+  margin-top: 15px;
+}
+
+.btn {
+  font-size: 1.8rem;
+  padding: 1rem o;
+  width: 20rem;
+  text-align: center;
+  border: 0.1rem solid #565656;
+  margin-bottom: 1rem;
+  color: crimson;
+  background-color: azure;
+  margin-top: 200px;
+}
+form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#view{
+  float: left;
+}
+#high{
+  float: right;
+}
